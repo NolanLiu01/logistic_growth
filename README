@@ -23,4 +23,4 @@
     # Mathematically, effect of the carrying capacity can be expressed using limits (L' Hopital's rule). The resulting equation will yield: as t -> ∞, N(t) = K. 
     # Whereas for the exponential equation, growth will be infinite. 
 # Question 3: 
-![Graph with Exponential and Logistic Growth Curve](https://6ff4443074904e9189f4ae5b25d4240a.app.posit.cloud/graphics/357e3051-3106-4ef4-98a0-95520b2bf48c.png)
+![Alt text](https://6ff4443074904e9189f4ae5b25d4240a.app.posit.cloud/graphics/357e3051-3106-4ef4-98a0-95520b2bf48c.png)
