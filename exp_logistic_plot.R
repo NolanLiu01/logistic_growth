@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # load necessary packages
 
 install.packages ("pacman")
@@ -46,6 +45,4 @@ ggplot(aes(t,N), data = growth_data) +
   ylim (0, (9*10^10)) +
   
   geom_point()
-=======
->>>>>>> c4b3083410742089918f02ce7a36117b39e71dc1
 

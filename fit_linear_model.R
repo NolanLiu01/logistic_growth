@@ -1,7 +1,9 @@
 #Script to estimate the model parameters using a linear approximation
 
+install.packages ("pacman")
 install.packages ("dplyr")
-library(dplyr)
+library (pacman)
+pacman::p_load (dplyr, ggplot2)
 
 growth_data <- read.csv("experiment1.csv")
 

@@ -2,8 +2,9 @@
 
 growth_data <- read.csv("experiment1.csv")
 
-install.packages("ggplot2")
-library(ggplot2)
+install.packages ("pacman")
+library (pacman)
+pacman::p_load (dplyr, ggplot2)
 
 ggplot(aes(t,N), data = growth_data) +
   

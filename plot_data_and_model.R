@@ -2,6 +2,11 @@
 
 growth_data <- read.csv("experiment1.csv")
 
+install.packages ("pacman")
+install.packages ("dplyr")
+library (pacman)
+pacman::p_load (dplyr, ggplot2)
+
 logistic_fun <- function(t) {
   
   N <- (N0*K*exp(r*t))/(K-N0+N0*exp(r*t))
