@@ -1,6 +1,6 @@
 # Reproducible research: version control and R
 Logistic growth curve modeling
-# Section 1.2 
+# 1.2 Assignment Questions 
 Questions 1-3 will be answered on the README.md
 # Question 1: 
 The purpose of this exercise is to estimate the initial population size, rate of growth, and carrying capacity of bacteria from experimental data. A logistic curve was used to approximate the bacterial growth from experimental data. To find N0 (initial population), K (carrying capacity), and r (per capita growth rate), a linear approximation was used. By analyzing the curve in two distinct regions, the variables in question can be determined. While t (time in min) is small, in this case less than 1800 minutes, the growth is exponential. A simple transformation using natural logs will yeild a linear relationship between N (population) and r (per capita growth rate). By solving for that equation, the intercept will be N0 (initial population) and the slope will be r (per capita growth rate). 
